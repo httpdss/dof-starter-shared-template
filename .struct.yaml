@@ -1,13 +1,13 @@
 folders:
   - ./:
-    struct:
-      - github/workflows/pre-commit
-      - github/workflows/release-drafter
-      - github/workflows/run-struct
-      - terraform/apps/environments
-      - terraform/apps/aws-accounts
-      - terraform/apps/init
-      - terraform/apps/github-organization
-    with:
-      github_org: "my-organization"
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+      struct:
+        - github/workflows/pre-commit
+        - github/workflows/release-drafter
+        - github/workflows/run-struct
+        - terraform/apps/environments
+        - terraform/apps/aws-accounts
+        - terraform/apps/init
+        - terraform/apps/github-organization
+      with:
+        github_org: "my-organization"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
